@@ -19,6 +19,7 @@ function draw()
   rect(400,150,300,200);
   arc(550,150,300,230,180,0)
   //eyes
+  
   fill('white');
   circle(480,180,100);
   circle(620,180,100);

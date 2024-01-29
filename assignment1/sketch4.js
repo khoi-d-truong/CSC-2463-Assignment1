@@ -7,11 +7,14 @@ function setup()
 function draw()
 {
   background('rgb(0,0,128)');
+
+  //circle
   fill('rgb(0,100,0)');
   stroke('white');
   strokeWeight(5);
   circle(250,250,300);
   
+  //star
   fill('red');
   beginShape();
     vertex(250,100);
@@ -31,5 +34,5 @@ function draw()
   
     vertex(250,100);
   
-  endShape();
+  endShape(CLOSE);
 }
